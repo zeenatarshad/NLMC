@@ -1,0 +1,41 @@
+.grey-box{
+  background-color: #ddd; /* Adjust the grey color as needed */
+  padding: 15px; /* Adjust the padding amount as needed */
+  margin: 20px 0; /* Add top and bottom space */
+  margin-left: 30px; /* Add left space */
+  margin-right: 30px; /* Add right space */
+  border-radius: 5px; /* Add rounded corners */
+  height: auto;
+  /* height: 400px; */
+}
+
+.row-12{
+    display: flex;
+}
+
+.col{
+    background-color: #ffffff; /* Adjust the grey color as needed */
+    padding: 15px; /* Adjust the padding amount as needed */
+    margin: 20px 0; /* Add top and bottom space */
+    margin-left: 10px; /* Add left space */
+    margin-right: 10px; /* Add right space */
+    border-radius: 5px; /* Add rounded corners */
+    height: auto;
+    /* height: 200px; */
+    width: 200px;
+}
+
+.footer {
+    background-color: #111F68;
+    overflow: hidden;
+    height: 35px;
+    display: flex;
+  }
+
+  h6{
+    background-color: #111F68;
+    color: #ffffff;
+    /* width: auto; */
+    /* height: auto; */
+  }
+

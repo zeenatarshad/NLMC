@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #111F68;
+    overflow: hidden;
+    height: 35px;
+    display: flex;
+  }
+
+  .left-nav{
+    justify-content: flex-start; /* Distribute remaining space between left and right sections */
+
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar a:hover {
+    color: black;
+  }
+  
+  .navbar a.left-nav {
+    margin-right: 10px;
+  }
+  
+  .right-nav {
+    align-self: flex-end; 
+  }
+  
+  .main-content{
+    width: 75%;
+  }
+
+  .sidebar{
+    width: 25%;
+    background-color: rgb(14, 18, 21);
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content{
+    display: flex;
+  }
+
+.main-content{
+  background-color: rgb(255, 255, 255);
+  flex: 4; /* Expands to 75% of available space */
+  border: 1px solid #ddd; /* Optional styling for demonstration */
+  height: 500px;
+}
+
+.sidebar{
+  background-color: #DDE7F0;
+  flex: 1; /* Expands to 25% of available space */
+  border: 1px solid #ddd; /* Optional styling for demonstration */
+  height: 500px;
+}
+
+.footer {
+  background-color: #111F68;
+  overflow: hidden;
+  height: 35px;
+  display: flex;
+}
+
+.search-bar {
+  width: 90%; /* Full width of the main-content div */
+  display: flex;
+  align-items: center; /* Vertically align input and button */
+}
+
+.search-bar form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.search-input {
+  flex: 1; /* Take up remaining space */
+  padding: 10px 30px 10px 10px; /* Adjust padding to accommodate button */
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  height: 30px; /* Reduce height */
+}
+
+.search-button {
+  width: 60px; /* Reduce width */
+  height: 30px; /* Match height of input field */
+  background-color: #111F68;
+  border: none;
+  border-radius: 25px; /* Add border radius */
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #ddd; /* Subtle hover effect */
+}
+
+.grey-padded-box {
+  background-color: #ddd; /* Adjust the grey color as needed */
+  padding: 15px; /* Adjust the padding amount as needed */
+  margin: 20px 0; /* Add top and bottom space */
+  margin-left: 30px; /* Add left space */
+  margin-right: 30px; /* Add right space */
+  border-radius: 5px; /* Add rounded corners */
+  /* height: auto; */
+  height: 400px;
+}
+
+.grey-padded-box .inner-box {
+  width: 67%;
+  height: 127px;
+  background-color: #FAFAFA;
+  position: absolute;
+  top: 600px;
+  left: 83px;
+  border-radius: 5px; /* Add desired border radius */
+}
+
+.inner-box .row {
+  display: flex; /* Arrange elements horizontally */
+  align-items: center; /* Vertically center elements */
+  margin-bottom: 15px; /* Add spacing between rows */
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+.bid-button {
+  /* Style the button as needed */
+  align-self: flex-end; 
+  background-color: #C1CAFC;
+  color: black;
+  border-radius: 5px;
+  float: right;
+}
+
+.inner-box span {
+  margin-right: 10px; /* Add space between spans */
+}
+
+.test-label {
+  color: red; /* Apply red color to test label */
+}
+
+.bid-button-2 {
+  /* Style the button as needed */
+  align-self: flex-end; 
+  background-color: #C1CAFC;
+  color: black;
+  border-radius: 5px;
+  float: right;
+}
+
+.grey-padded-box .inner-box-2 {
+  width: 67%;
+  height: 127px;
+  background-color: #FAFAFA;
+  position: absolute;
+  top: 750px;
+  left: 83px;
+  border-radius: 5px; /* Add desired border radius */
+}
+
+.inner-box-2.row {
+  display: flex; /* Arrange elements horizontally */
+  align-items: center; /* Vertically center elements */
+  margin-bottom: 15px; /* Add spacing between rows */
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.inner-box-2 span {
+  margin-right: 10px; /* Add space between spans */
+  margin-top: 10px;
+}
+
+.sidebar{
+  color: #111F68;
+}
+
+.number{
+  background-color: #111F68;
+  color: #ffffff;
+}
+
+
+
+

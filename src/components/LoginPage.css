@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .background-image {
+    background-image: url('/src/Images/log\ in.jpg'); /* Adjust the path based on your actual image location */
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-container {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%; /* Ensures the form takes full width on smaller screens */
+  }
+  
+  .header{
+    font-size: 52px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .text-container{
+      position: absolute;
+      top: 40%;
+      right: 50%;
+      transform: translate(-50%, -50%);
+      /* background-color: rgba(255, 255, 255, 0.8); */
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      width: 100%; /* Ensures the form takes full width on smaller screens */
+      display: grid;
+
+  }
+
+
+  .head{
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+
+  }
